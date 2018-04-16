@@ -52,7 +52,7 @@ void Maxheap::deletion(){
 }
 
 void Maxheap::heapify(int i){
-	if(left(i)==hlength && right(i)==hlength){
+	if(left(i)==hlength){
 		return;
 	}
   while(left(i)<hlength){
